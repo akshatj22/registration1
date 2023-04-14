@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Open+Sans:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.box {
+    height: 75vh;
+    width: 75vw;
+    background-color: red;
+    z-index: 1;
+
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -10px 9px 47px -2px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+
+}
+
+.half1 {
+    width: 60%;
+    padding: 10px;
+    padding-right: 15px;
+    background-color: #FFF3E2;
+    border-radius: 10px 0 0 10px;
+}
+
+
+
+
+
+
+.half2 {
+    padding-right: 30px;
+    width: 40%;
+    background-color: #E74646;
+    border-radius: 0 10px 10px 0;
+}
+
+
+
+
